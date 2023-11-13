@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                <div class="card-header">
+                    <p>Todo List Səhifəsi</p>
+                </div>
+                <div class="card-body-one">
+                    <form id="todoAddForm">
+                        <input type="text" id="todoName" placeholder="Yeni Todo Əlavə Et..."/>
+                        <button type="submit" id="todoAddbutton">Todo Əlavə Et</button>
+                        <hr>
+                    </form>
+                </div>
+                <hr>
+                <div class="card-body-two">
+                    <p>Todo Listi</p>
+                    <form id="todoListForm">
+                        <input type="text" id="todoSearch" placeholder="Todo axtarın...">
+                        <hr>
+                    </form>
+                    <ul class="list-group"></ul>
+                    <div class="clearButton"><a href="#" id="clearButton">Bütün Todoları Təmizlə</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/093dfd0a97.js" crossorigin="anonymous"></script>
+</body>
+</html>
